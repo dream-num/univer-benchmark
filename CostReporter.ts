@@ -2,7 +2,11 @@ import type {
     FullConfig, FullResult, Reporter, Suite, TestCase, TestResult
   } from '@playwright/test/reporter';
   
-  class MyReporter implements Reporter {
+
+  /**
+   * Only calculate the time it takes for the title to be "timeCost"
+   */
+  class CostReporter implements Reporter {
 
     timer:Record<string, number[]> = {};
     onBegin(config: FullConfig, suite: Suite) {
@@ -18,7 +22,7 @@ import type {
         this.timer[test.title] = []
       }
 
-      const renderTime = result.steps.find(it=>it.title === 'set values')?.duration || 0;
+      const renderTime = result.steps.find(it=>it.title === 'timeCost')?.duration || 0;
       this.timer[test.title].push(renderTime);
       
       console.log(`Finished test ${test.title}: ${result.status}, duration: ${result.duration}, renderTime: ${renderTime}`);
@@ -33,4 +37,4 @@ import type {
     }
   }
   
-  export default MyReporter;
+  export default CostReporter;

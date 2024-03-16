@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host --port 8080",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "benchmark": "pnpm exec playwright test --workers=1"
   },
   "dependencies": {
     "@univerjs/core": "^0.1.3",

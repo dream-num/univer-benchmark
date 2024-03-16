@@ -29,7 +29,7 @@ const createTest = (row: number, col: number) => {
       }, { row, col, window: jsHandle });
     })
 
-    await test.step('set values', async () => {
+    await test.step('timeCost', async () => {
       await page.evaluate((window: any) => {
         window.setValues(window.data);
       }, jsHandle);

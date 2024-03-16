@@ -24,7 +24,7 @@ export default defineConfig({
     // ['line'],  
     // ['list'],  
     // ['dot'],
-    ['./MyReporter.ts'],
+    ['./CostReporter.ts'],
     ['json', { outputFile: './playwright-report/test-results.json' }],
     ['html', { open: 'never' }]
   ],

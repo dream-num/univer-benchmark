@@ -1,8 +1,46 @@
 # univer-benchmark
 
-## How to run
+`CostReporter.ts` is a simple benchmarking tool for the Univer project. It only counts the duration consumed by the steps we focus on.
+
+Run with -- workers=1 to avoid performance impact caused by concurrency.
+
+## How to install
 
 ```bash
-pnpm exec playwright test --repeat-each=3 --workers=1
+pnpm install
 ```
 
+## How to run
+
+run with ui
+```bash
+pnpm benchmark --ui
+```
+
+run once
+```bash
+pnpm benchmark
+```
+
+run n times
+```bash
+pnpm benchmark --repeat=3
+pnpm benchmark --repeat=10
+```
+## How to write a new test
+
+```typescript
+test(`new test`, async ({ page }) => {
+  await page.goto('/');
+  // wait for the page to be ready or to Pre work
+
+  // The internal time of the step named 'timeCost' will only be counted
+  await test.step('timeCost', async () => {
+    // do something    
+  })
+});
+```
+
+## Reference
+
+- [Writing Playwright tests](https://playwright.dev/docs/intro)
