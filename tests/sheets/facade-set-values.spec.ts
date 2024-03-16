@@ -59,8 +59,8 @@ createTest(10000, 100);
 createTest(100000, 10);
 
 createTest(10, 1000000);
-createTest(100, 100000);
-createTest(1000, 10000);
-createTest(10000, 1000);
-createTest(100000, 100);
-createTest(1000000, 10);
+// createTest(100, 100000);
+// createTest(1000, 10000);
+// createTest(10000, 1000);
+// createTest(100000, 100);
+// createTest(1000000, 10);

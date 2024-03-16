@@ -25,9 +25,9 @@ export default defineConfig({
     // ['line'],  
     // ['list'],  
     // ['dot'],
-    ['./CostReporter.ts'],
     ['json', { outputFile: './playwright-report/test-results.json' }],
-    ['html', { open: 'never' }]
+    ['html', { open: 'never' }],
+    ['./CostReporter.ts']
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {

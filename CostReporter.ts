@@ -1,7 +1,21 @@
 import type {
   FullConfig, FullResult, Reporter, Suite, TestCase, TestResult
 } from '@playwright/test/reporter';
+import si from 'systeminformation';
 
+async function getSystemInfo () {
+  try {
+    const cpuInfo = await si.cpu();
+    const osInfo = await si.osInfo();
+    const memInfo = await si.mem();
+
+    console.log('CPU:', cpuInfo.manufacturer, cpuInfo.brand);
+    console.log('OS:', osInfo.distro, osInfo.release);
+    console.log('Memory:', Math.round(memInfo.total / (1024 * 1024 * 1024)) + 'GB');
+  } catch (error) {
+    console.error('Error getting system info:', error);
+  }
+}
 
 /**
  * Only calculate the time it takes for the title to be "timeCost"
@@ -9,7 +23,10 @@ import type {
 class CostReporter implements Reporter {
 
   timer: Record<string, number[]> = {};
+  projects :string[] = [];
+  
   onBegin (config: FullConfig, suite: Suite) {
+    this.projects = config.projects.map(it => it.name);
     console.log(`Starting the run with ${suite.allTests().length} tests`);
   }
 
@@ -28,23 +45,28 @@ class CostReporter implements Reporter {
       return;
     }
 
-    const renderTime = result.steps.find(it => it.title === 'timeCost')?.duration || 0;
-    this.timer[test.title].push(renderTime);
+    const timeCost = result.steps.find(it => it.title === 'timeCost')?.duration || 0;
+    this.timer[test.title].push(timeCost);
 
-    console.log(`Finished test ${test.title}: ${result.status}, duration: ${result.duration}, renderTime: ${renderTime}`);
+    console.log(`Finished test ${test.title}: ${result.status}, duration: ${result.duration}, timeCost: ${timeCost}`);
   }
 
-  onEnd (result: FullResult) {
-    console.log('\n');
+  async onEnd (result: FullResult) {
+    
     console.log(`Finished the run: ${result.status}`);
-    console.log('Here are the results:');
+    console.log('\n --- Here are the results: --- \n');
+    console.log(`StartTime: ${result.startTime.toLocaleString("en-US", {timeZone: "Asia/Shanghai"})}`);
+    console.log(`Duration: ${result.duration} ms`);
+    await getSystemInfo();
+    console.log('projects:', this.projects.join(', '));
+
     Object.keys(this.timer).forEach((key) => {
       const validData = this.timer[key].filter(it => it > 0);
       const avg = validData.reduce((a, b) => a + b, 0) / validData.length;
       if (validData.length === 0) {
         console.error(`Test [${key}] timed out`);
       } else {
-        console.log(`Test [${key}] avg time: ${avg.toFixed(0)}`, this.timer[key])
+        console.log(`Test [${key}] avg time: ${avg.toFixed(0)}ms`, this.timer[key])
       }
     });
 
