@@ -2,7 +2,7 @@
 
 `CostReporter.ts` is a simple benchmarking tool for the Univer project. It only counts the duration consumed by the steps we focus on.
 
-Run with -- workers=1 to avoid performance impact caused by concurrency.
+Run with `--workers=1` to avoid performance impact caused by concurrency.
 
 ## How to install
 
@@ -46,6 +46,11 @@ test(`new test`, async ({ page }) => {
   })
 });
 ```
+
+## Troubleshooting
+
+- Maybe you need check the `playwright.config.ts` file to see if the `launch` options are suitable for your environment.
+- the timeout of the test is set to 10s, you can change it in the `playwright.config.ts` file.
 
 ## Reference
 
