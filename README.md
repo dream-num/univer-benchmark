@@ -49,7 +49,7 @@ test(`new test`, async ({ page }) => {
 
 ## Troubleshooting
 
-- Maybe you need check the `playwright.config.ts` file to see if the `launch` options are suitable for your environment.
+- Maybe you need check the `playwright.config.ts` file to see if the `projects` options are suitable for your environment.
 - the timeout of the test is set to 10s, you can change it in the `playwright.config.ts` file.
 
 ## Reference
