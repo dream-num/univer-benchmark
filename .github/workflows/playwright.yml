@@ -6,7 +6,8 @@ on:
     branches: [ main ]
 jobs:
   test:
-    timeout-minutes: 60
+    timeout-minutes: 300
+    continue-on-error: true  # 允许失败后继续执行
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4

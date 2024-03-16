@@ -27,6 +27,12 @@ run n times
 pnpm benchmark --repeat=3
 pnpm benchmark --repeat=10
 ```
+
+run with a regular filter, only run the test with the name contains 'raw load'
+```bash
+pnpm benchmark -g "raw load"
+```
+
 ## How to write a new test
 
 ```typescript

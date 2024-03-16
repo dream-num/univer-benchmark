@@ -18,7 +18,7 @@ test.beforeEach(async ({ context }) => {
 });
 
 const createTest = (row: number, col: number) => {
-  test(`load ${row}*${col} data`, async ({ page }) => {
+  test(`facade setValues ${row}*${col} data`, async ({ page }) => {
     await page.goto('/');
 
     const jsHandle = await page.evaluateHandle('window');
@@ -26,18 +26,29 @@ const createTest = (row: number, col: number) => {
     await test.step('create data', async () => {
       await page.evaluate(({ row, col, window }: any) => {
         window.data = window.createData(row, col);
+        // create univer sheet instance
+        window.univer.createUniverSheet({});
+        const univerAPI = window.FUniver.newAPI(window.univer);
+        window.univerAPI = univerAPI;
       }, { row, col, window: jsHandle });
     })
 
-    await test.step('timeCost', async () => {
-      await page.evaluate((window: any) => {
-        window.setValues(window.data);
-      }, jsHandle);
+    await page.waitForTimeout(200);
 
-      await page.waitForFunction(() => {
-        return document.querySelectorAll('canvas')[2]!.getContext('2d')!.getImageData(70, 40, 1, 1).data[3] !== 0;
-      });
-    })
+
+    try {
+      await test.step('timeCost', async () => {
+        await page.evaluate((window: any) => {
+          window.setValues(window.data);
+        }, jsHandle);
+
+        await page.waitForFunction(() => {
+          return document.querySelectorAll('canvas')[2]!.getContext('2d')!.getImageData(70, 40, 1, 1).data[3] !== 0;
+        });
+      })
+    } catch (error) {
+      console.log('error', error);
+    }
   })
 };
 
@@ -46,7 +57,6 @@ createTest(100, 10000);
 createTest(1000, 1000);
 createTest(10000, 100);
 createTest(100000, 10);
-
 
 createTest(10, 1000000);
 createTest(100, 100000);

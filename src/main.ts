@@ -45,10 +45,5 @@ univer.registerPlugin(UniverSheetsNumfmtPlugin);
 univer.registerPlugin(UniverFormulaEnginePlugin);
 univer.registerPlugin(UniverSheetsFormulaPlugin);
 
-// create univer sheet instance
-univer.createUniverSheet({});
-
-const univerAPI = FUniver.newAPI(univer);
-
-window.univerAPI = univerAPI;
 window.univer = univer;
+window.FUniver = FUniver;

@@ -5,7 +5,7 @@ import { Univer } from "@univerjs/core";
 
 declare global  {
   interface Window {
+    FUniver: typeof FUniver;
     univer: Univer;
-    univerAPI: FUniver;
   }
 }
