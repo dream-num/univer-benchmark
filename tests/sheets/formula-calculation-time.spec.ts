@@ -5,6 +5,7 @@ import { FormulaExecutedStateType, ISetFormulaCalculationNotificationMutation, S
 import {formula20000WithRandomRange}from './data/formula-20000-with-random-range'
 import { formula20000WithNestedSelection } from './data/formula-20000-with-nested-selection';
 import { formula20000WithVlookup } from './data/formula-20000-with-vlookup';
+import { formula20000WithVlookupAllRange } from './data/formula-20000-with-vlookup-all-range';
 
 test.beforeEach(async ({ context }) => {
   await context.addInitScript(() => {
@@ -112,3 +113,4 @@ const createTest = (cellData: IObjectMatrixPrimitiveType<ICellData>, name: strin
 createTest(formula20000WithRandomRange,'formula20000WithRandomRange')
 createTest(formula20000WithNestedSelection,'formula20000WithNestedSelection')
 createTest(formula20000WithVlookup,'formula20000WithVlookup')
+createTest(formula20000WithVlookupAllRange(),'formula20000WithVlookupAllRange')
