@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --host --port 8080",
     "build": "tsc && vite build",
-    "benchmark": "pnpm exec playwright test --workers=1"
+    "benchmark": "pnpm exec playwright test --workers=1",
+    "test": "npx playwright test tests/sheets/formula-calculation-time.spec.ts"
   },
   "dependencies": {
     "@univerjs/core": "^0.1.3",

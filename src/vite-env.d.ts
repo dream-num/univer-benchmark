@@ -7,5 +7,6 @@ declare global  {
   interface Window {
     FUniver: typeof FUniver;
     univer: Univer;
+    univerAPI: FUniver;
   }
 }
