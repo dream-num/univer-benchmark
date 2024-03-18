@@ -24,8 +24,8 @@ pnpm benchmark
 
 run n times
 ```bash
-pnpm benchmark --repeat=3
-pnpm benchmark --repeat=10
+pnpm benchmark --repeat-each=3
+pnpm benchmark --repeat-each=10
 ```
 
 run with a regular filter, only run the test with the name contains 'raw load'
