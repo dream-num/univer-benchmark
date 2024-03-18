@@ -17,7 +17,7 @@ function generateData(rows) {
 
         // Add VLOOKUP function in the last column
         rowData[8] = {
-            f: `=VLOOKUP(A${i + 1},A1:H${rows},8)`
+            f: `=VLOOKUP(A${i + 1},A1:H${rows},8,0)`
         };
 
         matrix[i] = rowData;
