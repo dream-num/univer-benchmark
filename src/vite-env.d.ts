@@ -1,12 +1,13 @@
 /// <reference types="vite/client" />
 
 import { FUniver } from "@univerjs/facade";
-import { Univer } from "@univerjs/core";
+import { ICommandService, Univer } from "@univerjs/core";
 
-declare global  {
+declare global {
   interface Window {
     FUniver: typeof FUniver;
     univer: Univer;
     univerAPI: FUniver;
+    commandService: ICommandService;
   }
 }
