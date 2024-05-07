@@ -12,10 +12,11 @@ on:
       - 'CostReporter.ts'
       - 'playwright.config.ts'
     branches: [ main ]
+  workflow_dispatch:
 jobs:
   test:
     timeout-minutes: 300
-    continue-on-error: true  # 允许失败后继续执行
+    continue-on-error: true
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
