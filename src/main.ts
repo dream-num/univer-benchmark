@@ -5,7 +5,7 @@ import "@univerjs/sheets-ui/lib/index.css";
 import "@univerjs/sheets-formula/lib/index.css";
 import "@univerjs/sheets-numfmt/lib/index.css";
 
-import { LocaleType, LogLevel, Univer } from "@univerjs/core";
+import { ICommandService, LocaleType, LogLevel, Univer } from "@univerjs/core";
 import { defaultTheme } from "@univerjs/design";
 import { UniverDocsPlugin } from "@univerjs/docs";
 import { UniverDocsUIPlugin } from "@univerjs/docs-ui";
@@ -34,7 +34,6 @@ univer.registerPlugin(UniverRenderEnginePlugin);
 univer.registerPlugin(UniverUIPlugin, {
   container: "app",
   header: true,
-  toolbar: true,
   footer: true,
 });
 univer.registerPlugin(UniverSheetsPlugin);
@@ -47,3 +46,4 @@ univer.registerPlugin(UniverSheetsFormulaPlugin);
 
 window.univer = univer;
 window.FUniver = FUniver;
+window.commandService = univer.__getInjector().get(ICommandService);
