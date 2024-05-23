@@ -13,6 +13,9 @@ on:
       - 'playwright.config.ts'
     branches: [ main ]
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
 jobs:
   test:
     timeout-minutes: 300
