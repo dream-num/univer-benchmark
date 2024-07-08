@@ -30,7 +30,7 @@ jobs:
     - name: Install dependencies with pnpm
       run: |
         pnpm i
-        pnpm update-deps
+        pnpm update:deps
 
     - name: Commit and push if there are updates
       run: |
