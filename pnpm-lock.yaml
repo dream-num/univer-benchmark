@@ -6,44 +6,44 @@ settings:
 
 dependencies:
   '@univerjs/core':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
   '@univerjs/design':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
   '@univerjs/docs':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(rxjs@7.8.1)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(rxjs@7.8.1)
   '@univerjs/docs-ui':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(clsx@2.1.1)(react@18.3.1)(rxjs@7.8.1)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(clsx@2.1.1)(react@18.3.1)(rxjs@7.8.1)
   '@univerjs/engine-formula':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1)
   '@univerjs/engine-numfmt':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605
   '@univerjs/engine-render':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
   '@univerjs/facade':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/network@0.2.4-nightly.202407241606)(@univerjs/sheets-formula@0.2.4-nightly.202407241606)(@univerjs/sheets-numfmt@0.2.4-nightly.202407241606)(@univerjs/sheets-ui@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(rxjs@7.8.1)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/network@0.2.4-nightly.202407251605)(@univerjs/sheets-formula@0.2.4-nightly.202407251605)(@univerjs/sheets-numfmt@0.2.4-nightly.202407251605)(@univerjs/sheets-ui@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(rxjs@7.8.1)
   '@univerjs/sheets':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1)
   '@univerjs/sheets-formula':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(@univerjs/sheets-ui@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(@univerjs/sheets-ui@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
   '@univerjs/sheets-numfmt':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/sheets-ui@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/sheets-ui@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
   '@univerjs/sheets-ui':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/docs-ui@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/docs-ui@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
   '@univerjs/ui':
-    specifier: 0.2.4-nightly.202407241606
-    version: 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
+    specifier: 0.2.4-nightly.202407251605
+    version: 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
   systeminformation:
     specifier: ^5.22.3
     version: 5.22.11
@@ -932,8 +932,8 @@ packages:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
 
-  /@univerjs/core@0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1):
-    resolution: {integrity: sha512-HxAIxUHQKbtNJFW3YDNW6oYu10LLmgiZ4cJYO/aOnXatpRL/6k/4DcdG6p8lZFQLr0rheSDCc4qd7jzJb6kmqQ==}
+  /@univerjs/core@0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1):
+    resolution: {integrity: sha512-zGp3YHAb++15ST3jzkUr1N4AQf2+nHTyR2V6zyrvA+2wC90s+CydRSYMlwvD3gc09cm8C/8ZCuIbnl+QLLu7tQ==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
@@ -949,8 +949,8 @@ packages:
       - '@grpc/grpc-js'
     dev: false
 
-  /@univerjs/design@0.2.4-nightly.202407241606(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-O6nfXePgxm1kLDMDJzMxyVPSgmwuUOZ7qwibCYUDMHM931TFhiJ9Po8pI9K/EXINUlIbOKKo5pMtWEjCCczFtQ==}
+  /@univerjs/design@0.2.4-nightly.202407251605(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-uwh0/xwC2e2JZkSPeezXoMBatEU5aRi3lVyrEY4TgtfuKhHQw3CWP5/OYz8MJjTpBbvypAvneh/1QCnul+wZ+w==}
     peerDependencies:
       clsx: '>=2.0.0'
       dayjs: '>=1.11.0'
@@ -960,7 +960,7 @@ packages:
       '@rc-component/color-picker': 1.9.0(react-dom@18.3.1)(react@18.3.1)
       '@rc-component/trigger': 2.2.0(react-dom@18.3.1)(react@18.3.1)
       '@types/react-mentions': 4.1.13
-      '@univerjs/icons': 0.1.66(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.67(react-dom@18.3.1)(react@18.3.1)
       clsx: 2.1.1
       dayjs: 1.11.12
       rc-dialog: 9.5.2(react-dom@18.3.1)(react@18.3.1)
@@ -986,103 +986,103 @@ packages:
       - moment
     dev: false
 
-  /@univerjs/docs-ui@0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(clsx@2.1.1)(react@18.3.1)(rxjs@7.8.1):
-    resolution: {integrity: sha512-mhtYrvHcUl49bIn5MckkKsCU5dDpemVref77RTyEG1zfgVSkwA3V7xShU+0FQR4sxpVet/98dL1EsYxS6oHWXw==}
+  /@univerjs/docs-ui@0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(clsx@2.1.1)(react@18.3.1)(rxjs@7.8.1):
+    resolution: {integrity: sha512-SoYFytAveIrdyTfkhDs4OuzShpWs9SuUQugLO7f97OYh7lMnK11a1i5fYlcQMOcDAy8AgyHvIKFyW9fnARbNFw==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
-      '@univerjs/design': 0.2.4-nightly.202407241606
-      '@univerjs/docs': 0.2.4-nightly.202407241606
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606
-      '@univerjs/ui': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
+      '@univerjs/design': 0.2.4-nightly.202407251605
+      '@univerjs/docs': 0.2.4-nightly.202407251605
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605
+      '@univerjs/ui': 0.2.4-nightly.202407251605
       clsx: '>=2.0.0'
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/design': 0.2.4-nightly.202407241606(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
-      '@univerjs/docs': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/ui': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/design': 0.2.4-nightly.202407251605(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/docs': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/ui': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
       clsx: 2.1.1
       react: 18.3.1
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/docs@0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(rxjs@7.8.1):
-    resolution: {integrity: sha512-8j7zODr/EMK+S2cPdqcKNfPScKqSqDBjhdCDKYbQZk+J7v2bHGowrLpXyWsbO4TV/DK3BRab0VXDk4/pZ926rg==}
+  /@univerjs/docs@0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(rxjs@7.8.1):
+    resolution: {integrity: sha512-xJjDuPV3jcxgFBio71X6Tq68t83m0I9kWKdbuWZk8Y5RkzRip2nPx8WAdQWyo9RpEoZ6xIzfm04NrOb/jpbL6w==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/engine-formula@0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1):
-    resolution: {integrity: sha512-T6EQOkFxwqCNp3RR0vmmJQWCND8xM5n92F4UFVx0VHL+pXLpli1w5UYoQ4bQWV9GXOhLRRAEfZcOOngDu+0CnQ==}
+  /@univerjs/engine-formula@0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1):
+    resolution: {integrity: sha512-kZ7jx6YZWti8jsDHnM0oVvGIF6qfXS1MTgxazkQLRffJEqdgmEqSmsR6GPa3vR4NgikqXiYJyA/KywyI1bjGhQ==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
-      '@univerjs/rpc': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
+      '@univerjs/rpc': 0.2.4-nightly.202407251605
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/rpc': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/rpc': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
       big.js: 6.2.1
       numfmt: 2.5.2
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/engine-numfmt@0.2.4-nightly.202407241606:
-    resolution: {integrity: sha512-vq+BdYJuabG1X2SXr7wOPUxgqBwtyPAckpWGraK1dSRrfIiD1lqJ48erwUyRCLt4eOR5ZynDm5JA59eqDSQwPA==}
+  /@univerjs/engine-numfmt@0.2.4-nightly.202407251605:
+    resolution: {integrity: sha512-6mewuVpknucjglT2ShOcsyDtzIWbwGrbPkVw2Xci1wZEUy9mL3SXsOd8jz34B0n+gcs9YROzk/AnHn/wL53CBw==}
     dependencies:
       numfmt: 2.5.2
     dev: false
 
-  /@univerjs/engine-render@0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1):
-    resolution: {integrity: sha512-aWcMn2grJlY6I7Ebdadku+n4gxv7OTwAcaQcuOleTHPvRstPyaWLY1H8nccDyPAY/hi4tBNaRnk9ZwAwygpkCA==}
+  /@univerjs/engine-render@0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1):
+    resolution: {integrity: sha512-IIWWIytJUbna8iHrNj5E8ymT+JuAaACP7CIimPoHLquz9vX3mfJxoYU02fi3r0smJi9Jwkfkum/u61VnA8JPlA==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
       rxjs: '>=7.0.0'
     dependencies:
       '@floating-ui/dom': 1.6.8
       '@floating-ui/utils': 0.2.5
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
       cjk-regex: 3.1.0
       franc-min: 6.2.0
       opentype.js: 1.3.4
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/facade@0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/network@0.2.4-nightly.202407241606)(@univerjs/sheets-formula@0.2.4-nightly.202407241606)(@univerjs/sheets-numfmt@0.2.4-nightly.202407241606)(@univerjs/sheets-ui@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(rxjs@7.8.1):
-    resolution: {integrity: sha512-luJ8sF5QusLgh0dDks7DBuAiOgyu4Zb7RZhX/zPHEoAORGZccMHqW4t74L3SqFfHB+TcLMIB4Y8BWyswTHpeWg==}
+  /@univerjs/facade@0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/network@0.2.4-nightly.202407251605)(@univerjs/sheets-formula@0.2.4-nightly.202407251605)(@univerjs/sheets-numfmt@0.2.4-nightly.202407251605)(@univerjs/sheets-ui@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(rxjs@7.8.1):
+    resolution: {integrity: sha512-hqjFNY0nlrTppqktns3r20oivN77UZp63Od6J2s2FRpJZ2Dl1+24h4WLqsL3PSgSTSJn/it78EBN8wVHlcnItA==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
-      '@univerjs/docs': 0.2.4-nightly.202407241606
-      '@univerjs/engine-formula': 0.2.4-nightly.202407241606
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606
-      '@univerjs/network': 0.2.4-nightly.202407241606
-      '@univerjs/sheets': 0.2.4-nightly.202407241606
-      '@univerjs/sheets-formula': 0.2.4-nightly.202407241606
-      '@univerjs/sheets-numfmt': 0.2.4-nightly.202407241606
-      '@univerjs/sheets-ui': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
+      '@univerjs/docs': 0.2.4-nightly.202407251605
+      '@univerjs/engine-formula': 0.2.4-nightly.202407251605
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605
+      '@univerjs/network': 0.2.4-nightly.202407251605
+      '@univerjs/sheets': 0.2.4-nightly.202407251605
+      '@univerjs/sheets-formula': 0.2.4-nightly.202407251605
+      '@univerjs/sheets-numfmt': 0.2.4-nightly.202407251605
+      '@univerjs/sheets-ui': 0.2.4-nightly.202407251605
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/docs': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/network': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/sheets': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/sheets-formula': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(@univerjs/sheets-ui@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/sheets-numfmt': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/sheets-ui@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/sheets-ui': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/docs-ui@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/docs': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/engine-formula': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/network': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/sheets': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/sheets-formula': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(@univerjs/sheets-ui@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/sheets-numfmt': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/sheets-ui@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/sheets-ui': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/docs-ui@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/icons@0.1.66(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-jgej0oIKu1ykn1logr0CCQUc4PtmDzT51ZF6p619vLOR0BzGLjFTMLgeosEW8qnjwR1w1pB5baRgsTnW1LBDSg==}
+  /@univerjs/icons@0.1.67(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-nGmw2ZFkMtwkVXzXZOfcvS4UDdXc45o3w/m5pzku63qxWvAYR4/FcbHzEm+Dh+Qg/5hvhT8eFf/1/fsOXl27AA==}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -1091,13 +1091,13 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /@univerjs/network@0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1):
-    resolution: {integrity: sha512-3zg9KKm/B/V64gVs8HvvXvwZbIzVrrGWknhverw3z605dikAJM96JdejVTC/sJU1sVvY2q89Htqsi7MGZHsMeA==}
+  /@univerjs/network@0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1):
+    resolution: {integrity: sha512-TJ8MzanSFin8MHkDfI+OLXCS+mJyP4m/pm7nlItwmCJWAG+oPX4DxyWYa3+JfXmBAnCchidMpCdndSc1sfIiwA==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
       rxjs: 7.8.1
     dev: false
 
@@ -1112,101 +1112,101 @@ packages:
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/rpc@0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1):
-    resolution: {integrity: sha512-SdnOJRtMpz30KqWYGTI2vw9caWZfPVhmwqsodWEtYZW2YMkNjkujJwSwa386lrOJknnXlyHdgH+2PYkPmcfYJg==}
+  /@univerjs/rpc@0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1):
+    resolution: {integrity: sha512-oxX6k6EjtH50oTp5R68S2B117HXI+JBklCE6waRsNnhdVEtmYQNVleeopFs6xFlfQ3phqGvYO4OJ2rZ8URkBwQ==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/sheets-formula@0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(@univerjs/sheets-ui@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1):
-    resolution: {integrity: sha512-UinItGsNcyWS2UOEmCty1bt/vTFAfVX6QgkEob44zn10rQtzW+nteyH4nOjCKQ9h4bzH3dKaL6+fIGD5r4VK9w==}
+  /@univerjs/sheets-formula@0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(@univerjs/sheets-ui@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1):
+    resolution: {integrity: sha512-EUaCmV2rHXBY88tSed8jhH+Mz5FNxEVcKLJ29BF1t3zGj7OCHzIm3M5bzA2Mu5MVxDFu68G61t0m8z2N8Y1VZw==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
-      '@univerjs/design': 0.2.4-nightly.202407241606
-      '@univerjs/docs': 0.2.4-nightly.202407241606
-      '@univerjs/engine-formula': 0.2.4-nightly.202407241606
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606
-      '@univerjs/rpc': 0.2.4-nightly.202407241606
-      '@univerjs/sheets': 0.2.4-nightly.202407241606
-      '@univerjs/sheets-ui': 0.2.4-nightly.202407241606
-      '@univerjs/ui': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
+      '@univerjs/design': 0.2.4-nightly.202407251605
+      '@univerjs/docs': 0.2.4-nightly.202407251605
+      '@univerjs/engine-formula': 0.2.4-nightly.202407251605
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605
+      '@univerjs/rpc': 0.2.4-nightly.202407251605
+      '@univerjs/sheets': 0.2.4-nightly.202407251605
+      '@univerjs/sheets-ui': 0.2.4-nightly.202407251605
+      '@univerjs/ui': 0.2.4-nightly.202407251605
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/design': 0.2.4-nightly.202407241606(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
-      '@univerjs/docs': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.66(react-dom@18.3.1)(react@18.3.1)
-      '@univerjs/rpc': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/sheets': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/sheets-ui': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/docs-ui@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/ui': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/design': 0.2.4-nightly.202407251605(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/docs': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/engine-formula': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/icons': 0.1.67(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/rpc': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/sheets': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/sheets-ui': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/docs-ui@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/ui': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
       react: 18.3.1
       rxjs: 7.8.1
     transitivePeerDependencies:
       - react-dom
     dev: false
 
-  /@univerjs/sheets-numfmt@0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/sheets-ui@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1):
-    resolution: {integrity: sha512-WNuFBGKYopzbKlpufrmHn+3cS+VcQe9SyU9mS9SPAkvpb0hkfMORpCZX46rrRIFMETMAsV7oRaZMOFVFmKcEYg==}
+  /@univerjs/sheets-numfmt@0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/sheets-ui@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1):
+    resolution: {integrity: sha512-unLZCyCgfXyz7wcdC/bqK7wB9kUKKguNj8glbXQe0Kadbly7beJfBqvlGcZV5K5CyW4V1OKsO5MKPz/5dpQG+g==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
-      '@univerjs/design': 0.2.4-nightly.202407241606
-      '@univerjs/engine-numfmt': 0.2.4-nightly.202407241606
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606
-      '@univerjs/sheets': 0.2.4-nightly.202407241606
-      '@univerjs/sheets-ui': 0.2.4-nightly.202407241606
-      '@univerjs/ui': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
+      '@univerjs/design': 0.2.4-nightly.202407251605
+      '@univerjs/engine-numfmt': 0.2.4-nightly.202407251605
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605
+      '@univerjs/sheets': 0.2.4-nightly.202407251605
+      '@univerjs/sheets-ui': 0.2.4-nightly.202407251605
+      '@univerjs/ui': 0.2.4-nightly.202407251605
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/design': 0.2.4-nightly.202407241606(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
-      '@univerjs/engine-numfmt': 0.2.4-nightly.202407241606
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.66(react-dom@18.3.1)(react@18.3.1)
-      '@univerjs/sheets': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/sheets-ui': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/docs-ui@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/ui': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/design': 0.2.4-nightly.202407251605(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/engine-numfmt': 0.2.4-nightly.202407251605
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/icons': 0.1.67(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/sheets': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/sheets-ui': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/docs-ui@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/ui': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
       react: 18.3.1
       rxjs: 7.8.1
     transitivePeerDependencies:
       - react-dom
     dev: false
 
-  /@univerjs/sheets-ui@0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/docs-ui@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/sheets@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1):
-    resolution: {integrity: sha512-jBXluOZFYIU1D73taMQDoIeAMYlNLvXPpI9LY55XTRuzwkHgG4PNN7fvCgQxrVYM8+7LQBiAL0BNRubelVzBeA==}
+  /@univerjs/sheets-ui@0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/docs-ui@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/sheets@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1):
+    resolution: {integrity: sha512-8XGj1cniKsDBZdVbCwbK2C45OrfPEOSYdobbvTICqawOzP+IHJGnJ6Sq8bkfOVfRxp39Ljp1SoB2IyJorDd69Q==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
-      '@univerjs/design': 0.2.4-nightly.202407241606
-      '@univerjs/docs': 0.2.4-nightly.202407241606
-      '@univerjs/docs-ui': 0.2.4-nightly.202407241606
-      '@univerjs/engine-formula': 0.2.4-nightly.202407241606
-      '@univerjs/engine-numfmt': 0.2.4-nightly.202407241606
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606
-      '@univerjs/sheets': 0.2.4-nightly.202407241606
-      '@univerjs/ui': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
+      '@univerjs/design': 0.2.4-nightly.202407251605
+      '@univerjs/docs': 0.2.4-nightly.202407251605
+      '@univerjs/docs-ui': 0.2.4-nightly.202407251605
+      '@univerjs/engine-formula': 0.2.4-nightly.202407251605
+      '@univerjs/engine-numfmt': 0.2.4-nightly.202407251605
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605
+      '@univerjs/sheets': 0.2.4-nightly.202407251605
+      '@univerjs/ui': 0.2.4-nightly.202407251605
       clsx: '>=2.0.0'
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/design': 0.2.4-nightly.202407241606(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
-      '@univerjs/docs': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/docs-ui': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/docs@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(@univerjs/ui@0.2.4-nightly.202407241606)(clsx@2.1.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/engine-numfmt': 0.2.4-nightly.202407241606
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.66(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/design': 0.2.4-nightly.202407251605(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/docs': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/docs-ui': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/docs@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(@univerjs/ui@0.2.4-nightly.202407251605)(clsx@2.1.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/engine-formula': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/engine-numfmt': 0.2.4-nightly.202407251605
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/icons': 0.1.67(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/protocol': 0.1.38-alpha.23(@grpc/grpc-js@1.11.1)(rxjs@7.8.1)
-      '@univerjs/sheets': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/ui': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
+      '@univerjs/sheets': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/ui': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
       clsx: 2.1.1
       react: 18.3.1
       rxjs: 7.8.1
@@ -1215,44 +1215,44 @@ packages:
       - react-dom
     dev: false
 
-  /@univerjs/sheets@0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-numfmt@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1):
-    resolution: {integrity: sha512-2i/83v2Xx4qwg5G2leQu6wJEpjdx5ksV2UZsNiC29GVI85/BW26UBm7We0P9HxVSai7uEG/bbix0SvbdXyKeVA==}
+  /@univerjs/sheets@0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-numfmt@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1):
+    resolution: {integrity: sha512-CCUsrte9HmOPMTb8/CQor8hjLjDK2TTj53LcYIyIUpAZmm7pyKQ3nHVHoG0nEnCZPH7G1XVNpEt4CwmAVmrDfQ==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
-      '@univerjs/engine-formula': 0.2.4-nightly.202407241606
-      '@univerjs/engine-numfmt': 0.2.4-nightly.202407241606
-      '@univerjs/rpc': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
+      '@univerjs/engine-formula': 0.2.4-nightly.202407251605
+      '@univerjs/engine-numfmt': 0.2.4-nightly.202407251605
+      '@univerjs/rpc': 0.2.4-nightly.202407251605
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/engine-numfmt': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/engine-formula': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/engine-numfmt': 0.2.4-nightly.202407251605
       '@univerjs/protocol': 0.1.38-alpha.23(@grpc/grpc-js@1.11.1)(rxjs@7.8.1)
-      '@univerjs/rpc': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
+      '@univerjs/rpc': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
       rxjs: 7.8.1
     transitivePeerDependencies:
       - '@grpc/grpc-js'
     dev: false
 
-  /@univerjs/ui@0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3):
-    resolution: {integrity: sha512-QHvPkcV9DrZrSFf+E928TkyPq4tB+64K1cvJuUzcgZpfCkUN9RztGRZIrV/80kl6xasJFFq9G1c7ZtcRgk1itg==}
+  /@univerjs/ui@0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3):
+    resolution: {integrity: sha512-JS6QqzYd/YtKKVOP5+/hqkroM4HSlKbCNPAgeOzCFn6gipPzEsv0KISZYitMjNMlCZNd5yPQj4mBIkUMOp/lvg==}
     peerDependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606
-      '@univerjs/design': 0.2.4-nightly.202407241606
-      '@univerjs/engine-formula': 0.2.4-nightly.202407241606
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606
-      '@univerjs/ui': 0.2.4-nightly.202407241606
+      '@univerjs/core': 0.2.4-nightly.202407251605
+      '@univerjs/design': 0.2.4-nightly.202407251605
+      '@univerjs/engine-formula': 0.2.4-nightly.202407251605
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605
+      '@univerjs/ui': 0.2.4-nightly.202407251605
       clsx: '>=2.0.0'
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.4-nightly.202407241606(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/design': 0.2.4-nightly.202407241606(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
-      '@univerjs/engine-formula': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/rpc@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.66(react-dom@18.3.1)(react@18.3.1)
-      '@univerjs/ui': 0.2.4-nightly.202407241606(@univerjs/core@0.2.4-nightly.202407241606)(@univerjs/design@0.2.4-nightly.202407241606)(@univerjs/engine-formula@0.2.4-nightly.202407241606)(@univerjs/engine-render@0.2.4-nightly.202407241606)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
+      '@univerjs/core': 0.2.4-nightly.202407251605(@grpc/grpc-js@1.11.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/design': 0.2.4-nightly.202407251605(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/engine-formula': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/rpc@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(rxjs@7.8.1)
+      '@univerjs/icons': 0.1.67(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/ui': 0.2.4-nightly.202407251605(@univerjs/core@0.2.4-nightly.202407251605)(@univerjs/design@0.2.4-nightly.202407251605)(@univerjs/engine-formula@0.2.4-nightly.202407251605)(@univerjs/engine-render@0.2.4-nightly.202407251605)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.3)
       clsx: 2.1.1
       localforage: 1.10.0
       rc-notification: 5.6.0(react-dom@18.3.1)(react@18.3.1)
