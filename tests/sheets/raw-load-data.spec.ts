@@ -194,7 +194,7 @@ const createTest = (row: number, col: number) => {
         }, jsHandle);
   
         await page.waitForFunction(() => {
-          return document.querySelectorAll('canvas')[2]!.getContext('2d')!.getImageData(70, 40, 1, 1).data[3] !== 0;
+          return document.querySelectorAll('canvas')[2]?.getContext('2d')?.getImageData(70, 40, 10, 10).data.find((d: number) => d !== 0);
         });
       })
     } catch (error) {

@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host --port 8080",
+    "dev": "vite --host --port 8089",
     "build": "tsc && vite build",
     "benchmark": "pnpm exec playwright test --workers=1",
     "lint:types": "tsc --noEmit",

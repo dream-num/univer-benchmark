@@ -32,7 +32,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'http://127.0.0.1:8080',
+    baseURL: 'http://127.0.0.1:8089',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
@@ -85,7 +85,7 @@ export default defineConfig({
   /* Run your local dev server before starting the tests */
   webServer: {
     command: 'pnpm dev', // start the server command
-    url: 'http://127.0.0.1:8080', // server url
+    url: 'http://127.0.0.1:8089', // server url
     reuseExistingServer: !process.env.CI, // reuse the server if already running
     timeout: 5 * 1000, // timeout for the server to start
   },

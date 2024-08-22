@@ -22,6 +22,9 @@ import { FUniver } from "@univerjs/facade";
 const univer = new Univer({
   theme: defaultTheme,
   locale: LocaleType.ZH_CN,
+  locales:{
+    
+  },
   logLevel: LogLevel.VERBOSE,
 });
 

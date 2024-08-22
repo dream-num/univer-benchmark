@@ -71,7 +71,9 @@ class CostReporter implements Reporter {
     });
 
     // Exit with non-zero code if there are failing tests
-    process.exit(0);
+    if(process.env.IS_CI){
+      // process.exit(0);
+    }
   }
 }
 
