@@ -17,6 +17,11 @@ run with ui
 pnpm benchmark --ui
 ```
 
+run with headed
+```bash
+pnpm benchmark --ui --headed
+```
+
 run once
 ```bash
 pnpm benchmark
