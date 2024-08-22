@@ -36,19 +36,15 @@ const createTest = (row: number, col: number) => {
     await page.waitForTimeout(200);
 
 
-    try {
-      await test.step('timeCost', async () => {
-        await page.evaluate((window: any) => {
-          window.setValues(window.data);
-        }, jsHandle);
+    await test.step('timeCost', async () => {
+      await page.evaluate((window: any) => {
+        window.setValues(window.data);
+      }, jsHandle);
 
-        await page.waitForFunction(() => {
-          return document.querySelectorAll('canvas')[2]?.getContext('2d')?.getImageData(70, 40, 10, 10).data.find((d: number) => d !== 0);
-        });
-      })
-    } catch (error) {
-      console.log('error', error);
-    }
+      await page.waitForFunction(() => {
+        return document.querySelectorAll('canvas')[2]?.getContext('2d')?.getImageData(70, 40, 10, 10).data.find((d: number) => d !== 0);
+      });
+    })
   })
 };
 

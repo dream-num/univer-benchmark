@@ -11,6 +11,8 @@ import { formula20000WithNestedSelection } from "./data/formula-20000-with-neste
 import { formula20000WithVlookup } from "./data/formula-20000-with-vlookup";
 import { formula20000WithVlookupAllRange } from "./data/formula-20000-with-vlookup-all-range";
 
+test.setTimeout(1000 * 60 * 5); // 5 minutes
+
 test.beforeEach(async ({ context }) => {
   await context.addInitScript(() => {
     // @ts-expect-error

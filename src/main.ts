@@ -23,9 +23,8 @@ const univer = new Univer({
   theme: defaultTheme,
   locale: LocaleType.ZH_CN,
   locales:{
-    
   },
-  logLevel: LogLevel.VERBOSE,
+  logLevel: LogLevel.ERROR,
 });
 
 // core plugins
