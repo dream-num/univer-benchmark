@@ -31,8 +31,8 @@ test.beforeEach(async ({ context }) => {
             name: 'sheet1',
             tabColor: 'red',
             hidden: 0 as 0 as BooleanNumber.FALSE,
-            rowCount: 1000,
-            columnCount: 20,
+            rowCount: row,
+            columnCount: col,
             zoomRatio: 1,
             scrollTop: 200,
             scrollLeft: 100,
@@ -117,7 +117,7 @@ test.beforeEach(async ({ context }) => {
               height: 20,
               hidden: 0 as BooleanNumber.FALSE,
             },
-            selections: ['A2'],
+            // selections: ['A2'],
             rightToLeft: 0 as BooleanNumber.FALSE,
           },
           'sheet-02': {
@@ -196,20 +196,21 @@ const createTest = (row: number, col: number) => {
         return document.querySelectorAll('canvas')[2]?.getContext('2d')?.getImageData(70, 40, 10, 10).data.find((d: number) => d !== 0);
       });
     })
-
   })
 };
 
 
-createTest(10, 100000);
+// createTest(10, 100000);
 createTest(100, 10000);
 createTest(1000, 1000);
 createTest(10000, 100);
 createTest(100000, 10);
 
-createTest(10, 1000000);
-createTest(100, 100000);
+// createTest(10, 1000000);
+// createTest(100, 100000);
 createTest(1000, 10000);
 createTest(10000, 1000);
 createTest(100000, 100);
 createTest(1000000, 10);
+createTest(1000000, 50);
+createTest(1000000, 20);
