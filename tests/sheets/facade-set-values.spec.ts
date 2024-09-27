@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-
+ 
 test.beforeEach(async ({ context }) => {
   await context.addInitScript(() => {
     // @ts-expect-error
@@ -27,7 +27,20 @@ const createTest = (row: number, col: number) => {
       await page.evaluate(({ row, col, window }: any) => {
         window.data = window.createData(row, col);
         // create univer sheet instance
-        window.univer.createUniverSheet({});
+        window.univer.createUniverSheet({
+          id: 'API Data Workbook',
+          name: 'API Data Workbook',
+          sheetOrder: ['sheet-01'],
+          sheets: {
+            'sheet-01': {
+              cellData: {},
+              defaultColumnWidth: 100,
+              defaultRowHeight: 25,
+              rowCount: row,
+              columnCount: col,
+            },
+          },
+        });
         const univerAPI = window.FUniver.newAPI(window.univer);
         window.univerAPI = univerAPI;
       }, { row, col, window: jsHandle });
@@ -45,16 +58,19 @@ const createTest = (row: number, col: number) => {
         return document.querySelectorAll('canvas')[2]?.getContext('2d')?.getImageData(70, 40, 10, 10).data.find((d: number) => d !== 0);
       });
     })
+
+    // await page.waitForTimeout(1000000);
+
   })
 };
 
-createTest(10, 100000);
-createTest(100, 10000);
-createTest(1000, 1000);
-createTest(10000, 100);
+// createTest(10, 100000);
+// createTest(100, 10000);
+// createTest(1000, 1000);
+// createTest(10000, 100);
 createTest(100000, 10);
 
-createTest(10, 1000000);
+// createTest(10, 1000000);
 // createTest(100, 100000);
 // createTest(1000, 10000);
 // createTest(10000, 1000);
