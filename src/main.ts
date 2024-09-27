@@ -27,17 +27,17 @@ const univer = new Univer({
   logLevel: LogLevel.ERROR,
 });
 
+univer.registerPlugin(UniverRenderEnginePlugin);
 // core plugins
 univer.registerPlugin(UniverDocsPlugin, {
   hasScroll: false,
 });
-univer.registerPlugin(UniverDocsUIPlugin);
-univer.registerPlugin(UniverRenderEnginePlugin);
 univer.registerPlugin(UniverUIPlugin, {
   container: "app",
   header: true,
   footer: true,
 });
+univer.registerPlugin(UniverDocsUIPlugin);
 univer.registerPlugin(UniverSheetsPlugin);
 univer.registerPlugin(UniverSheetsUIPlugin);
 
