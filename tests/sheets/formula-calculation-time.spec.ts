@@ -38,22 +38,28 @@ test.beforeEach(async ({ context }) => {
         };
 
         // Listen for calculation end messages in advance
-        window.commandService.onCommandExecuted((command, options) => {
-          const params =
-            command.params as ISetFormulaCalculationNotificationMutation;
-          if (
-            command.id ===
-              "formula.mutation.set-formula-calculation-notification" &&
-            params.stageInfo == null &&
-            params.functionsExecutedState === 3
-          ) {
-            resolve(null);
-          }
-        });
+        // window.commandService.onCommandExecuted((command, options) => {
+        //   const params =
+        //     command.params as ISetFormulaCalculationNotificationMutation;
+        //   if (
+        //     command.id ===
+        //       "formula.mutation.set-formula-calculation-notification" &&
+        //     params.stageInfo == null &&
+        //     params.functionsExecutedState === 3
+        //   ) {
+        //     resolve(null);
+        //   }
+        // });
 
         window.univer.createUniverSheet(workbookData);
         const univerAPI = window.FUniver.newAPI(window.univer);
         window.univerAPI = univerAPI;
+
+        const formula = univerAPI.getFormula();
+        formula.calculationEnd(()=>{
+          console.log('计算结束了=================')
+          resolve(null)
+        })
       });
     };
   });
@@ -88,7 +94,7 @@ const createTest = (
     });
 
     // Expect a title "to contain" a substring.
-    await expect(page).toHaveTitle(/Vite/);
+    await expect(page).toHaveTitle('Benchmarks');
 
   });
 };
