@@ -292,11 +292,11 @@ const createTest = (row: number, col: number) => {
       await page.waitForLoadState('networkidle');
       // wait for canvas has data
       await page.waitForFunction(() => {
-        const canvaslist = document.querySelectorAll('canvas');
-        if (canvaslist.length > 2) {
-          const imgData = canvaslist[2]!.getContext('2d')!.getImageData(40, 40, 1, 1).data;
+        const canvas = document.querySelector('.univer-workbench-container-canvas .univer-render-canvas');
+        if (canvas) {
+          const imgData = canvas!.getContext('2d')!.getImageData(40, 40, 1, 1).data;
           console.log('canvaslist', imgData[0], imgData[1], imgData[2], imgData[3]);
-          return canvaslist[2]!.getContext('2d')!.getImageData(40, 40, 1, 1).data[3] !== 0;
+          return canvas!.getContext('2d')!.getImageData(40, 40, 1, 1).data[3] !== 0;
         }
       });
     });
@@ -314,12 +314,12 @@ const createTest = (row: number, col: number) => {
     } finally {
 
       // Keep page
-      console.log('Test case completed. Browser instance is still open.');
-      await new Promise((resolve) => {
-        setTimeout(() => {
-          resolve(0);
-        }, 1000 * 60 * 10);
-      });
+      // console.log('Test case completed. Browser instance is still open.');
+      // await new Promise((resolve) => {
+      //   setTimeout(() => {
+      //     resolve(0);
+      //   }, 1000 * 60 * 10);
+      // });
     }
   });
 };
