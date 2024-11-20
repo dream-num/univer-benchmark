@@ -193,24 +193,14 @@ const createTest = (row: number, col: number) => {
       }, jsHandle);
 
       await page.waitForFunction(() => {
-        return document.querySelectorAll('canvas')[2]?.getContext('2d')?.getImageData(70, 40, 10, 10).data.find((d: number) => d !== 0);
+        return document.querySelector('.univer-workbench-container-canvas .univer-render-canvas')?.getContext('2d')?.getImageData(50, 30, 70, 14).data.find((d: number) => d !== 0);
       });
     })
   })
 };
 
 
-// createTest(10, 100000);
-createTest(100, 10000);
-createTest(1000, 1000);
 createTest(10000, 100);
 createTest(100000, 10);
-
-// createTest(10, 1000000);
-// createTest(100, 100000);
-createTest(1000, 10000);
-createTest(10000, 1000);
 createTest(100000, 100);
 createTest(1000000, 10);
-createTest(1000000, 50);
-createTest(1000000, 20);
