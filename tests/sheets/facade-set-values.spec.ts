@@ -1,4 +1,5 @@
 import { test } from '@playwright/test';
+import type { FUniver } from '@univerjs/core';
  
 test.beforeEach(async ({ context }) => {
   await context.addInitScript(() => {
@@ -24,7 +25,7 @@ const createTest = (row: number, col: number) => {
     const jsHandle = await page.evaluateHandle('window');
 
     await test.step('create data', async () => {
-      await page.evaluate(({ row, col, window }: any) => {
+      await page.evaluate(async ({ row, col, window }: any) => {
         window.data = window.createData(row, col);
         // create univer sheet instance
         window.univer.createUniverSheet({
@@ -43,10 +44,16 @@ const createTest = (row: number, col: number) => {
         });
         const univerAPI = window.FUniver.newAPI(window.univer);
         window.univerAPI = univerAPI;
+
+        const promise = new Promise((resolve) => {
+          (univerAPI as FUniver).getHooks().onRendered(()=>{
+            resolve(0);
+          })
+        });
+        await promise;
       }, { row, col, window: jsHandle });
     })
 
-    await page.waitForTimeout(200);
 
 
     await test.step('timeCost', async () => {
