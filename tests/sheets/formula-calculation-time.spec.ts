@@ -71,9 +71,9 @@ const createTest = (
 const formulaNumber = 20000
 
 createTest(generateRandomRange(formulaNumber),formulaNumber +' formula random range')
-createTest(generateVlookup(formulaNumber),formulaNumber +' formula vlookup all range')
+createTest(generateVlookup(formulaNumber),formulaNumber +' formula vlookup')
 createTest(generateNestedSelection(formulaNumber),formulaNumber +' formula nested selection')
-createTest(generateNestedSum(formulaNumber),formulaNumber +' formula nested selection')
+createTest(generateNestedSum(formulaNumber),formulaNumber +' formula nested sum')
 
 
 
