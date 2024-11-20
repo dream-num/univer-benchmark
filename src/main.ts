@@ -2,8 +2,8 @@ import "./style.css";
 import "@univerjs/design/lib/index.css";
 import "@univerjs/ui/lib/index.css";
 import "@univerjs/sheets-ui/lib/index.css";
-import "@univerjs/sheets-formula/lib/index.css";
-import "@univerjs/sheets-numfmt/lib/index.css";
+import "@univerjs/sheets-formula-ui/lib/index.css";
+import "@univerjs/sheets-numfmt-ui/lib/index.css";
 
 import { ICommandService, LocaleType, LogLevel, Univer } from "@univerjs/core";
 import { defaultTheme } from "@univerjs/design";
@@ -13,7 +13,9 @@ import { UniverFormulaEnginePlugin } from "@univerjs/engine-formula";
 import { UniverRenderEnginePlugin } from "@univerjs/engine-render";
 import { UniverSheetsPlugin } from "@univerjs/sheets";
 import { UniverSheetsFormulaPlugin } from "@univerjs/sheets-formula";
+import { UniverSheetsFormulaUIPlugin } from '@univerjs/sheets-formula-ui';
 import { UniverSheetsNumfmtPlugin } from "@univerjs/sheets-numfmt";
+import { UniverSheetsNumfmtUIPlugin } from '@univerjs/sheets-numfmt-ui';
 import { UniverSheetsUIPlugin } from "@univerjs/sheets-ui";
 import { UniverUIPlugin } from "@univerjs/ui";
 import { FUniver } from "@univerjs/facade";
@@ -43,8 +45,10 @@ univer.registerPlugin(UniverSheetsUIPlugin);
 
 // sheet feature plugins
 univer.registerPlugin(UniverSheetsNumfmtPlugin);
+univer.registerPlugin(UniverSheetsNumfmtUIPlugin);
 univer.registerPlugin(UniverFormulaEnginePlugin);
 univer.registerPlugin(UniverSheetsFormulaPlugin);
+univer.registerPlugin(UniverSheetsFormulaUIPlugin);
 
 window.univer = univer;
 window.FUniver = FUniver;

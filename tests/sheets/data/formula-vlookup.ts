@@ -1,8 +1,10 @@
-import fs from 'fs'
+/**
+ * 20,000 rows of data, one VLOOKUP formula per row, no duplicate values, vlookup references all scopes
+ */
 
 const fruits = ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry', 'Fig', 'Grape', 'Honeydew'];
 
-function generateData(rows) {
+export function generateVlookup(rows) {
     const matrix = {};
 
     for (let i = 0; i < rows; i++) {
@@ -15,7 +17,7 @@ function generateData(rows) {
 
         // Add VLOOKUP function in the last column
         rowData[8] = {
-            f: `=VLOOKUP(A${i + 1},A${i + 1}:H${i + 1},8)`
+            f: `=VLOOKUP(A${i + 1},A1:H${rows},8,0)`
         };
 
         matrix[i] = rowData;
@@ -23,10 +25,3 @@ function generateData(rows) {
 
     return matrix;
 }
-
-const matrix = generateData(20000);
-// Write matrix data to JSON file
-fs.writeFile('matrix_data.json', JSON.stringify(matrix, null, 2), (err) => {
-    if (err) throw err;
-    console.log('Data has been written to matrix_data.json');
-});
